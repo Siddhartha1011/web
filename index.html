@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Rest.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+    <ul>
+    <li><a href="#" >HOME</a>
+    <li><a href="#menu" >MENU</a>
+    <li><a href="#about" >ABOUT</a>
+    <li><a href="#bookTable" >BOOK A TABLE</a>
+    <li><a href="#myMap" >CONTACT</a></li>
+</ul>
+  </nav>
+<!-- Header -->
+<header id="home">
+    <div>
+        <p class="head">The Spice</p>
+    </div>
+    <div class="container">
+        <a href="#menu" style=" text-align: center; font-size: 35px; font-family: 'Dongle', sans-serif;">Inspired by The Land of Spices</a>
+    </div>
+        <!-- <span><b>Open from 10am to 11pm</b></span> -->
+</header>
+<!-- The Menu  -->
+<div class="Menu" id="menu">
+    <div class="heading" >
+        <h1>&mdash; Menu &mdash;</h1>
+    </div>
+    <div class="menu-row">
+        <div class="menu-col">
+            <h2>Snacks</h2>
+            <div class="box">
+                <div class="image">
+                <img src="d1.jpg" >
+                </div>
+                    <div >
+                    <h3>Burger</h3>
+                    <h4> Rs. 80</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                    <img src="d3.jpg">
+                    </div>
+                        <div >
+                        <h3>Pizza</h3>
+                        <h4> Rs. 100</h4>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                        <img src="d10.jpg">
+                        </div>
+                            <div >
+                            <h3>Sub</h3>
+                            <h4> Rs. 80</h4>
+                            </div>
+                        </div>
+    </div>
+    <div class="menu-col">
+        <h2>Veg Special</h2>
+        <div class="box">
+            <div class="image">
+            <img src="d2.jpg" >
+            </div>
+                <div >
+                <h3>Butter Paneer</h3>
+                <h4> Rs. 150</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                <img src="d6.jpg">
+                </div>
+                    <div >
+                    <h3>Crispy Bhindi</h3>
+                    <h4> Rs. 120</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                    <img src="d4.jpg">
+                    </div>
+                        <div >
+                        <h3>Naan</h3>
+                        <h4> Rs. 25</h4>
+                        </div>
+                    </div>
+</div>
+<div class="menu-col">
+            <h2>Indian Special</h2>
+            <div class="box">
+                <div class="image">
+                <img src="d7.jpg" >
+                </div>
+                    <div >
+                    <h3>Chole Bhature</h3>
+                    <h4> Rs. 100</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                    <img src="d8.jpg">
+                    </div>
+                        <div >
+                        <h3>Paav Bhaji</h3>
+                        <h4> Rs. 60</h4>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                        <img src="d9.jpg">
+                        </div>
+                            <div >
+                            <h3>Masala Dosa</h3>
+                            <h4> Rs. 70</h4>
+                            </div>
+                        </div>
+    </div>
+</div>
+<!-- ABOUT -->
+<div class="About" id="about"><b>Farm-to-Table<br> With <br>a little bit of Spice </b><br><br>
+    <div class="Us">We serve your favourite food, staying true to our commitment to using local, sustainable and organic produce.They offer an authentic and extraordinary fine dining experience.
+         Their elegant dining room is excellent for a special dinner for two or any event. 
+         Having increased invaluable expertise in India's hotels, their chefs will tantalise your taste buds with an extensive menu of vegetarian dishes. 
+         Their friendly and attentive staff helps customers to satisfy their vegetarian needs.
+          Their dine-in menu fits right into the essentials & likes of their special dietary customers. Chhabra's Pure Veg offers Mushroom Masala comprised of button mushrooms soaked in onion gravy with freshly chopped onion, tomato and garam masala.</div>
+</div>
+<div class="BookTable">
+    <div id="bookTable">
+        <h2>Book a Table</h2>
+        <form action="handle_booking.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <div><label for="email">Email:</label>
+                <input type="email" id="email" name="email" required></div>
+
+                <div><label for="partySize">Party Size:</label>
+                <input type="number" id="partySize" name="partySize" required> </div>
+
+                <div><label for="date">Date:</label>
+                <input type="date" id="date" name="date" required> </div>
+
+                <div><label for="time">Time:</label>
+                <input type="time" id="time" name="time" required> </div>
+
+                <input type="submit" value="Book Now">
+            </form>
+    </div>
+</div>
+<!-- CONTACT -->
+<div class="Contact" id="myMap">
+    Reserve a Table 
+<div class="Us1">To help us find the best table for you, select the preferred party size, date, and time of your reservation.<br>
+<div class="logo">Contact us on :<br>TheSpice@gmail.com<br>0141-32165<br><img src="in.png"><img src="fb.png"></div>
+<div class="lo"><br><img src="o.png"></div>
+<div class="log">Visit Us: <br> Mon - Fri: 11am - 10pm <br> ​​Sat - Sun: 11am - 12pm</div>
+</div>
+</div>
+</body>
+</html>
