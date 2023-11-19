@@ -1,0 +1,82 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+h1,h2{font-family: 'Tilt Prism', cursive;}
+    p {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+    .head { color: rgb(2, 60, 2); font-family: 'Shadows Into Light', cursive; font-size:120px; padding-top: 220px; padding-left: 525px;}  
+    span {background-color: white; font-size: 30px; font-family: Tilt Prism; text-align: end; position: absolute; bottom: 0; left: 0;}
+    nav ul li a:hover{background-color: rgb(2, 60, 2);color: white;}
+    body { width:100%; background-image: url(W2.jpg); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;}
+    nav  { position: fixed; width: 100%; background-color: rgba(0, 0, 0, 0.5); }
+nav ul li { list-style-type: none; display: inline-block; padding: 20px 20px;}
+nav ul li a { position:relative; font-size: 30px; font-family: Tilt Prism; text-decoration: none; color: rgb(255, 255, 255); border: none  ;
+}
+.container{
+    width: 400px;
+    height:10px ;
+    position: relative;}
+.container a{text-decoration: none; color: black;
+    margin: 0; padding: 0; text-align: center; position: relative;bottom: 15px; left: 600px;}
+/* .container a:hover{backgroun{d-color: rgb(2, 60, 2);color: white;} */
+.Menu{ padding:350px 0 25px 0 ;} /* {background-image: url(b2.jpg);background-repeat: no-repeat; background-size:auto; background-position: center;} */
+.heading h1 {padding: 80px; text-align: center; color: rgb(30, 39, 30); font-family: 'Dongle', sans-serif; font-weight: 400; font-size: 100px; letter-spacing: 10px; margin-bottom: 10px;}
+.menu-row{display: flex; padding: 0 100px 0 100px; }
+.menu-col{box-shadow:  2px 2px 2px #bbb; border: 1px solid #bbb ; background-color: #fff ; margin: 10px ; padding: 10px ; flex: 1;} 
+.menu-col h2{background-color: rgb(2, 60, 2);color: white; text-align: center ; padding:5px ;}
+.image{width:250px ; height:250px; padding: 5px;border-radius:50%; border: 2px, solid green;}
+.image img{width:100% ; height:100%; object-fit: cover; border-radius:50%;} 
+.box{display: flex; flex-direction: column; align-items: center; text-align: center; margin: 5px;}
+.About{padding: 80px; color: rgb(2, 60, 2); font-family: 'Tilt Prism', cursive; font-size:45px;text-align: center;}
+.Us{text-align: center; font-size: 35px; font-family: 'Dongle', sans-serif; background-color: white ;}
+.BookTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px; 
+}
+
+#bookTable {
+    background-color: black; /* Adjust background color and opacity as needed */
+    padding: 60px; /* Increase padding to make the form bigger */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 1000px; 
+    width: 100%; 
+    color: red;
+}
+
+#bookTable h2 {
+    text-align: center;
+    color: rgb(2, 60, 2);
+    color: red;
+}
+
+#bookTable form {
+    text-align: center;
+}
+#bookTable label,
+#bookTable input,
+#bookTable input[type="submit"] {
+    display: block;
+    margin: 10px 0;
+}
+
+#bookTable input,
+#bookTable input[type="submit"] {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+}
+#bookTable input[type="submit"] {
+    width: 100%; /* Make the submit button full width */
+    padding: 15px; /* Increase padding for a larger button */
+    font-size: 18px; /* Increase font size for the button */
+    background-color: black; /* Set the background color of the submit button to black */
+    color: red; /* Set the font color of the submit button to red */
+}
+
+
+.Us1{ text-align: center; font-size: 35px; font-family: 'Dongle', sans-serif;}
+.Contact{width:100%; background-color: rgb(2, 60, 2); font-family: 'Shadows Into Light'; color: white; font-size:45px;text-align: center;position: relative; bottom: 0px;}
+.logo{float: left;}
+.log{float: center;}
+.lo img { float: right; width: 130px; height: 130px;}
+.logo img {width: 30px; height: 30px;}
